@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 //Qui vanno definite le variabili
-  float a,b,c;
+  int a,b,c;
 cin >> a >> b >> c;
 
 //Qui va scritto il codice per eseguire i calcoli richiesti
@@ -11,5 +11,6 @@ cin >> a >> b >> c;
    cout << "Area quadrato : " << (a*a) << endl;
    cout << "Area rettangolo : " << (a*b) << endl;
    cout << "Area trapezio : " << (((a+b)*c)/2) << endl;
-
+ 
+  return 0;
 }
